@@ -8,6 +8,7 @@ object castillo{
 	}
 	method valorOtorgado()= nivelDefensa/5
 	method recibirTrabajo(){nivelDefensa=200.min(nivelDefensa+20)}
+	method nivelDefensa()=nivelDefensa
 }
 object aurora{
 	var estaViva=true
